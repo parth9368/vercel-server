@@ -8,7 +8,7 @@ app.use("/", (req,res) => {
     res.json({ message: "Hello from Express App"})
 });
 
-app.listen(9000, () => {
+app.listen(5000, () => {
     console.log(`starting server on port : ${PORT}`)
 })
 
